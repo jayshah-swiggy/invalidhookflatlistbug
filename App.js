@@ -55,9 +55,9 @@ class App extends React.Component {
       <SafeAreaView style={backgroundStyle}>
         <StatusBar barStyle={'light-content'} />
         <FlatList
-        data={DATA}
-        renderItem={this.renderItem}
-        keyExtractor={item => item.id}
+          data={DATA}
+          renderItem={this.renderItem}
+          keyExtractor={item => item.id}
       />
       </SafeAreaView>
     );
